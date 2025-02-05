@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:vanishable",
+    "$minecraft:universal_enchants_horse_armor"
+  ],
+  "incompatible": [
+    "enigmaticlegacy:eternal_binding",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

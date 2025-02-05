@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_feet"
+  ],
+  "incompatible": [
+    "tonsofenchants:springy",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

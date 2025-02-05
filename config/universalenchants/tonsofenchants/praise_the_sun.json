@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:breakable",
+    "enigmaticlegacy:the_infinitum"
+  ],
+  "incompatible": [
+    "tonsofenchants:decay",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

@@ -1,0 +1,33 @@
+
+[Spawning]
+	#This controls whether all dweller versions will require specific weather conditions to spawn. Without this, they will appear much more frequently. 
+	"Bosses require weather?" = true
+	#Do you want the dwellers and clone versions to spawn naturally, or only from summoning structures?
+	"Boss natural spawning" = true
+	#Dwellers and variant spawns are rare by default. 1=twice as common. 2=default rarity. 3=twice as rare. 4=three times rarer. Avoid decimal and negative numbers.
+	"Boss rarity" = 2.0
+	#This controls whether the dweller bosses (spider moth, scorpioid bloodluster, draconic voidlasher, tormentor) are included in general. Set to false if you only want the other mobs, and the dwellers will become unable to be spawned in any way.
+	"Boss inclusion" = true
+	#Controls the spawnrate of ALL non-boss mobs in this mod, including minibosses and all regular arthropods. Default multiplier value is 8. To double ArPhEx spawnrates, set it to 4. Lower values = more spawns (minimum value is 1). No maximum rarity. Avoid decimal and negative numbers.
+	"Non-boss global spawnrates" = 8.0
+	#ArPhEx has an additional spawning system that gives a 1 in (10) chance to spawn a random ArPhEx mob each time the natural spawn triggers. This system allows ArPhEx mobs to spawn in non-vanilla overworld biomes, while still accounting for mob rarity. Default number is 10, meaning it has a 1 in 10 chance to spawn each time. Setting it to 0 disables the additional spawning system entirely. Avoid decimal and negative numbers.
+	"Random-system spawn rates" = 10.0
+	"All entities enabled/disabled" = true
+	#Maximum colony tamed ants per player (furthest ants despawn, 20 default)
+	"Max tamed ants per player" = 20.0
+	#Option to limit all natural ArPhEx spawning to the Crawling dimension
+	"Crawling-restrict all mobs" = false
+	#Specifically disables the Tormentor boss entirely. It will be unable to be spawned in any form if this is enabled.
+	"Disable Tormentor" = false
+
+[Difficulty]
+	#Controls damage for ALL ArPhEx mobs, minibosses, and bosses. Affects their ranged projectiles too. Default value is 0. Positive values will give that level of strength. Avoid decimal and negative numbers. Does not affect Tormentor fight significantly.
+	"Overall Difficulty Control" = 3.0
+	#By default, the dweller bosses have hundreds of health points. Choose true to decrease their maximum to just 60 health. Avoid decimal and negative numbers.
+	"Boss easy-mode" = false
+
+[Other]
+	#When you join a world for the first time with ArPhEx installed, it shows a welcome message, informing you about the wiki and showing that the mod is active. Set to false to disable.
+	"Welcome message" = false
+	"Minimise structure generation" = true
+

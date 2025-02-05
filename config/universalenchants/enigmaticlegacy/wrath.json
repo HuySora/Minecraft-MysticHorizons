@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:trident",
+    "cataclysm:coral_spear",
+    "cataclysm:coral_bardiche",
+    "legendary_monsters:reinforced_monstrous_anchor"
+  ],
+  "incompatible": [
+    "deeperdarker:sculk_smite",
+    "minecraft:impaling",
+    "enigmaticlegacy:torrent",
+    "minecraft:bane_of_arthropods",
+    "minecraft:smite",
+    "minecraft:sharpness",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

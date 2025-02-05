@@ -1,0 +1,45 @@
+{
+	"enabled": true,
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "(((level + 1) ^ 3) / ((level + 1) * 1.08)) + 400"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:kill_entity",
+			"data": {
+				"variables": {
+					"dropped_xp": {
+						"operations": [
+							{
+								"type": "dropped_experience"
+							}
+						]
+					},
+					"max_health": {
+						"operations": [
+							{
+								"type": "killed_living_entity"
+							},
+							{
+								"type": "max_health"
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"expression": "dropped_xp / 5 + max_health / 20"
+					}
+				],
+				"anti_farming": {
+					"enabled": true,
+					"limit_per_chunk": 2,
+					"reset_after_seconds": 3000
+				}
+			}
+		}
+	]
+}

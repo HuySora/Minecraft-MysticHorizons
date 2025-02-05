@@ -1,0 +1,10 @@
+{
+  "General": {
+    "GUI Theme": "betterquesting:dark",
+    "Use Bookmarks": true,
+    "Show Notices": true,
+    "Advanced Tooltips": false,
+    "GUI Margin X": 16,
+    "GUI Margin Y": 16
+  }
+}

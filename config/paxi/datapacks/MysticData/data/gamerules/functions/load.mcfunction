@@ -1,0 +1,3 @@
+gamerule announceAdvancements false
+gamerule stiffComboAttacks false
+gamerule spawnRadius 15

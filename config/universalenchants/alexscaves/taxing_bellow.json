@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:magic_conch"
+  ],
+  "incompatible": [
+    "minecraft:mending",
+    "minecraft:unbreaking",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

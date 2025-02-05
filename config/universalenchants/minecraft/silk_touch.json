@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "quark:pickarang",
+    "quark:flamerang",
+    "legendary_monsters:anchor_handle"
+  ],
+  "incompatible": [
+    "minecraft:looting",
+    "minecraft:fortune",
+    "majruszsenchantments:smelter",
+    "minecraft:luck_of_the_sea",
+    "miningmaster:stonebreaker",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "OrbData": {
+    "type": "pickableorbs:percentage_healing",
+    "effectMultiplier": 20,
+    "color": "#FF0046",
+    "blockList": ["minecraft:spawner"],
+    "blockListType": "whitelist",
+    "texture": "pickableorbs:textures/entity/plain_orb.png",
+    "blockDropChance": 25.0,
+    "entityList": ["minecraft:pig", "minecraft:sheep", "minecraft:rabbit", "minecraft:villager", "minecraft:cow", "minecraft:fox", "minecraft:chicken", "minecraft:horse", "minecraft:donkey"],
+    "entityListType": "blacklist",
+    "entityDropChance": 12.5
+  },
+  "ExtraData": {
+    "pickup-message": "",
+    "animation": true,
+    "sound": true,
+    "follow-player": false,
+    "pickup-delay": 10
+  }
+}

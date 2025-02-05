@@ -1,0 +1,14 @@
+{
+  "OrbData": {
+    "type": "minecraft:speed",
+    "effectMultiplier": 0,
+    "effectDuration": 15,
+    "color": "#51E5FF",
+    "blockList": ["minecraft:spawner"],
+    "blockListType": "whitelist",
+    "blockDropChance": 15,
+    "entityList": ["minecraft:rabbit", "minecraft:horse"],
+    "entityListType": "whitelist",
+    "entityDropChance": 2.0
+  }
+}

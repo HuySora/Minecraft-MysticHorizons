@@ -1,0 +1,7 @@
+{
+	musicDelayLength: "SHORT",
+	debugModeEnabled: false,
+	treatAsWhitelist: false,
+	confirmationResetDelay: 1.0,
+	loadedUserSongpack: "Adventure Redefined"
+}

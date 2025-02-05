@@ -1,0 +1,15 @@
+{
+    "attributes": {
+        "two_hand": {
+            "armor_negation": 0,
+            "impact": 3,
+            "max_strikes": 2
+        }
+    },
+    "type": "wom:staff",
+    "collider": {
+        "number": 3,
+        "center": [0.0, 0.0, 0.0],
+        "size": [0.45, 0.45, 1.05]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "attributes": {
+        "two_hand": {
+            "armor_negation": 10,
+            "impact": 2.8,
+            "max_strikes": 3,
+            "speed_bonus": 0.8
+        }
+    },
+    "type": "falchionmoveset:falchion"
+}

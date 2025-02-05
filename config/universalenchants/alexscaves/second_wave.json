@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:ortholance"
+  ],
+  "incompatible": [
+    "alexscaves:tsunami",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

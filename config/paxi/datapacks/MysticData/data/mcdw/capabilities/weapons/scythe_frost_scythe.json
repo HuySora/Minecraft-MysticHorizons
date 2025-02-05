@@ -1,0 +1,23 @@
+{
+	"attributes":
+	{
+		"one_hand":
+		{
+			"armor_negation":25.0,
+			"impact":2.9,
+			"max_strikes":1
+		},
+		"two_hand":
+		{
+			"armor_negation":10.0,
+			"impact":2.4,
+			"max_strikes":3
+		}
+	},
+	"type":"falchionmoveset:falchion",
+    "collider": {
+        "number": 4,
+        "center": [0.0, -0.25, -0.75],
+        "size": [0.4, 0.6, 0.55]
+    }
+}

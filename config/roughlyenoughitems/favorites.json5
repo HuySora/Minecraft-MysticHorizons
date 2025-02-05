@@ -1,0 +1,8 @@
+{
+	"favorites": [
+		"{data:{Count:1b,id:\"minecraft:lime_concrete\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_turtle_master\"},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+	],
+	"hiddenFavorites": [],
+	"displays": []
+}

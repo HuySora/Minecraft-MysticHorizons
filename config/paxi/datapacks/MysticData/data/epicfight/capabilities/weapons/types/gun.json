@@ -1,0 +1,90 @@
+{
+	"category": "bow",
+	"hit_particle": "epicfight:entity.hit.blade",
+	"hit_sound": "epicfight:entity.hit.blunt",
+	"swing_sound": "epicfight:entity.weapon.whoosh_small",
+	"styles":
+	{
+		"cases":
+		[
+			{
+				"condition": "epicfight:offhand_category",
+				"predicate": {
+					"category": "bow"
+				},
+				"style": "two_hand"
+			}
+		],
+		"default": "one_hand"
+	},
+	"offhand_item_compatible_predicate":
+	{
+		"condition": "epicfight:offhand_category",
+		"predicate": {
+			"category": "bow"
+		}
+	},
+	"collider":
+    {
+        "number": 3,
+        "center": [0.0, 0.0, -0.75],
+        "size": [0.4, 0.4, 0.5]
+    },
+    "combos":
+    {
+    	"one_hand":
+    	[
+			"epicfight:biped/combat/axe_auto1",
+			"epicfight:biped/combat/axe_auto2",
+			"epicfight:biped/combat/axe_dash",
+			"epicfight:biped/combat/axe_airslash"
+		],
+    	"two_hand":
+    	[
+			"epicfight:biped/combat/sword_dual_auto1",
+			"epicfight:biped/combat/sword_dual_auto2",
+			"epicfight:biped/combat/sword_dual_auto3",
+			"epicfight:biped/combat/sword_dual_dash",
+			"epicfight:biped/combat/sword_dual_airslash"
+    	],
+    	"mount":
+    	[
+    		"epicfight:biped/combat/sword_mount_attack"
+    	]
+    },
+    "innate_skills":
+    {
+    	"one_hand": "epicfight:the_guillotine",
+    	"two_hand": "epicfight:dancing_edge"
+    },
+    "livingmotion_modifier": {
+		"one_hand":
+		{
+			"aim":"wom:biped/skill/enderblaster_onehand_aiming",
+			"shot": "wom:biped/skill/enderblaster_onehand_shoot",
+			"idle": "wom:biped/skill/enderblaster_onehand_idle",
+			"walk": "wom:biped/skill/enderblaster_onehand_walk",
+			"run": "wom:biped/skill/enderblaster_onehand_run"
+		},
+    	"two_hand":
+    	{
+			"aim":"wom:biped/skill/enderblaster_twohand_aiming",
+			"shot":
+			[
+				"wom:biped/skill/enderblaster_twohand_shoot_1",
+				"wom:biped/skill/enderblaster_twohand_shoot_2",
+				"wom:biped/skill/enderblaster_twohand_shoot_3",
+				"wom:biped/skill/enderblaster_twohand_shoot_4"
+			],
+    		"idle": "wom:biped/skill/enderblaster_twohand_idle",
+    		"kneel": "wom:biped/skill/enderblaster_twohand_idle",
+    		"walk": "wom:biped/skill/enderblaster_twohand_walk",
+    		"chase": "wom:biped/skill/enderblaster_twohand_idle",
+    		"run": "wom:biped/skill/enderblaster_twohand_idle",
+    		"sneak": "wom:biped/skill/enderblaster_twohand_idle",
+    		"swim": "wom:biped/skill/enderblaster_twohand_idle",
+    		"float": "wom:biped/skill/enderblaster_twohand_idle",
+    		"fall": "wom:biped/skill/enderblaster_twohand_idle"
+    	}
+    }
+}

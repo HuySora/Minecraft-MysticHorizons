@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:pickaxe"
+  ],
+  "incompatible": [
+    "tonsofenchants:tnt_miner",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

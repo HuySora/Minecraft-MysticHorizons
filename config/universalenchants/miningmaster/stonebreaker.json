@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "legendary_monsters:anchor_handle"
+  ],
+  "incompatible": [
+    "minecraft:silk_touch",
+    "miningmaster:smelting",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

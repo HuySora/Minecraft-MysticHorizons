@@ -1,0 +1,15 @@
+{
+    "attributes": {
+        "common": {
+            "armor_negation": 10,
+            "impact": 2.6,
+            "max_strikes": 2
+        }
+    },
+    "type": "epicfight:tachi",
+    "collider": {
+        "number": 4,
+        "center": [0.0, -0.25, -0.75],
+        "size": [0.4, 0.75, 0.9]
+    }
+}

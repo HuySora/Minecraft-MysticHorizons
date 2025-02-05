@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "quark:pickarang",
+    "quark:flamerang",
+    "legendary_monsters:anchor_handle"
+  ],
+  "incompatible": [
+    "majruszsenchantments:fatigue_curse",
+    "tonsofenchants:enhanced_efficiency",
+    "minecraft:piercing",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

@@ -1,0 +1,328 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = AltSetPause
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1708328915637
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:3cf314cf-e5c2-4dd5-9ccb-4f8e85e2aeae-1708328915637] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  button_element_executable_block_identifier = 636db8ed-3158-42b5-8093-b70ed332e681-1708328915637
+  [executable_action_instance:27fc7d8b-625a-4c44-8c04-9877cfeb967f-1708328915637][action_type:opengui] = me.jellysquid.mods.sodium.client.gui.SodiumOptionsGUI
+  [executable_block:636db8ed-3158-42b5-8093-b70ed332e681-1708328915637][type:generic] = [executables:27fc7d8b-625a-4c44-8c04-9877cfeb967f-1708328915637;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Graphical Settings
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 8474d48c-2994-42c4-ac8b-ee9c3b9a1bdb1682666073593
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = 51d5ee80-3010-4374-9f3f-19cfa89e099a1682666600482
+  x = -65
+  y = -80
+  width = 150
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 9ba4b6c0-bd21-4242-b247-c61c86e022b7-1708328915637
+  [loading_requirement_container_meta:9ba4b6c0-bd21-4242-b247-c61c86e022b7-1708328915637] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 2a3be7fe-a5d6-4e97-9c92-9bbab62c3f9c-1708328915637
+  [executable_action_instance:02f4d7b5-5d41-40ed-a4e1-25cf7e4d74cd-1708328915637][action_type:opengui] = net.minecraft.client.gui.screens.packs.PackSelectionScreen
+  [executable_block:2a3be7fe-a5d6-4e97-9c92-9bbab62c3f9c-1708328915637][type:generic] = [executables:02f4d7b5-5d41-40ed-a4e1-25cf7e4d74cd-1708328915637;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Resource Packs
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 5151bb22-779a-4d1b-aeb8-1ebb8b48a9201682666410902
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = 51d5ee80-3010-4374-9f3f-19cfa89e099a1682666600482
+  x = -65
+  y = -32
+  width = 150
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 44a56d78-c067-4876-b3b7-73052daa61c8-1708328915637
+  [loading_requirement_container_meta:44a56d78-c067-4876-b3b7-73052daa61c8-1708328915637] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 53bfe928-46a9-4ee9-9c0b-1debb5895493-1708328915638
+  [executable_action_instance:9ea873b0-62c6-4c94-91e4-e4ebf28eff92-1708328915638][action_type:opengui] = net.minecraft.client.gui.screens.SkinCustomizationScreen
+  [executable_block:53bfe928-46a9-4ee9-9c0b-1debb5895493-1708328915638][type:generic] = [executables:9ea873b0-62c6-4c94-91e4-e4ebf28eff92-1708328915638;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Skin Customization
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 69009cbb-e5b7-452f-9d44-8018334546c91682666445261
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = 51d5ee80-3010-4374-9f3f-19cfa89e099a1682666600482
+  x = -65
+  y = -56
+  width = 150
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 11159085-dbbb-442b-a8b2-0489061b17a1-1708328915638
+  [loading_requirement_container_meta:11159085-dbbb-442b-a8b2-0489061b17a1-1708328915638] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = bee7fc2c-4d02-4b71-a84f-79da29d90c09-1708328915638
+  [executable_action_instance:2589b1d9-56db-4170-86e9-b8a228c98c4f-1708328915638][action_type:opengui] = net.minecraft.client.gui.screens.LanguageSelectScreen
+  [executable_block:bee7fc2c-4d02-4b71-a84f-79da29d90c09-1708328915638][type:generic] = [executables:2589b1d9-56db-4170-86e9-b8a228c98c4f-1708328915638;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Language
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 4e7771bc-f6c0-412e-994f-a6dc948eb90d1682666517263
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = 51d5ee80-3010-4374-9f3f-19cfa89e099a1682666600482
+  x = 93
+  y = -32
+  width = 150
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 768a1340-b063-4a8a-8120-90bc77c33089-1708328915638
+  [loading_requirement_container_meta:768a1340-b063-4a8a-8120-90bc77c33089-1708328915638] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = f570bcc4-3dc3-4a2e-bd3a-246640e5efd2-1708328915638
+  [executable_action_instance:01d2fb2b-e904-4735-9b48-d834d09ccd92-1708328915638][action_type:opengui] = net.minecraft.client.gui.screens.controls.ControlsScreen
+  [executable_block:f570bcc4-3dc3-4a2e-bd3a-246640e5efd2-1708328915638][type:generic] = [executables:01d2fb2b-e904-4735-9b48-d834d09ccd92-1708328915638;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Controls
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 805dcd7f-43bd-4f74-b95a-43bf99bfb52f1682666523885
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = 51d5ee80-3010-4374-9f3f-19cfa89e099a1682666600482
+  x = 93
+  y = -104
+  width = 150
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 3d0b315d-52a4-4f87-89cd-ae2e8f84394f-1708328915638
+  [loading_requirement_container_meta:3d0b315d-52a4-4f87-89cd-ae2e8f84394f-1708328915638] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 6ca61800-b44c-4b5b-a2ad-3ba55dbf662a-1708328915638
+  [executable_action_instance:19437c96-7a42-4985-a705-65be1f492dd3-1708328915638][action_type:opengui] = net.minecraft.client.gui.screens.SoundOptionsScreen
+  [executable_block:6ca61800-b44c-4b5b-a2ad-3ba55dbf662a-1708328915638][type:generic] = [executables:19437c96-7a42-4985-a705-65be1f492dd3-1708328915638;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  hoverlabel = Audio Options
+  label = Audio Options
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 4d6bf860-011e-494f-a5c8-e4ba71a7aa5e1682666527419
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = 51d5ee80-3010-4374-9f3f-19cfa89e099a1682666600482
+  x = 93
+  y = -80
+  width = 150
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 432b19cb-a19b-4445-8287-dc95a39c6f0e-1708328915638
+  [loading_requirement_container_meta:432b19cb-a19b-4445-8287-dc95a39c6f0e-1708328915638] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 04217965-b1d6-4c2a-ab60-60865c48e1e1-1708328915638
+  [executable_action_instance:e764323c-dd16-4060-988d-8c4fe1b92bc9-1708328915638][action_type:opengui] = net.diebuddies.physics.settings.PhysicsSettingsScreen
+  [executable_block:04217965-b1d6-4c2a-ab60-60865c48e1e1-1708328915638][type:generic] = [executables:e764323c-dd16-4060-988d-8c4fe1b92bc9-1708328915638;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Physics Options
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 97a263df-8e87-411e-9581-5b03ed666c011682666534057
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = 51d5ee80-3010-4374-9f3f-19cfa89e099a1682666600482
+  x = -65
+  y = -104
+  width = 150
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 338f5d97-20c3-4b3b-b25c-31e5d8e6e38f-1708328915638
+  [loading_requirement_container_meta:338f5d97-20c3-4b3b-b25c-31e5d8e6e38f-1708328915638] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 33f875fc-7bf5-47fc-bee5-735f063104fe-1708328915638
+  [executable_action_instance:0629789e-3b57-4c5c-b823-8f74c63d3d9d-1708328915638][action_type:opengui] = net.minecraft.client.gui.screens.ChatOptionsScreen
+  [executable_block:33f875fc-7bf5-47fc-bee5-735f063104fe-1708328915638][type:generic] = [executables:0629789e-3b57-4c5c-b823-8f74c63d3d9d-1708328915638;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Chat Settings
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 21383d19-9719-4d57-a564-5420423453801682666553293
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = 51d5ee80-3010-4374-9f3f-19cfa89e099a1682666600482
+  x = 93
+  y = -56
+  width = 150
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 520f4417-ad34-43ea-8ca2-c7d41500f5ac-1708328915638
+  [loading_requirement_container_meta:520f4417-ad34-43ea-8ca2-c7d41500f5ac-1708328915638] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = b6a65695-3f01-4a00-a71a-f71dcfddc1ae-1708328915638
+  [executable_action_instance:be71a14f-8b28-40ed-ae69-0541a5c06b35-1708328915638][action_type:closegui] = 
+  [executable_block:b6a65695-3f01-4a00-a71a-f71dcfddc1ae-1708328915638][type:generic] = [executables:be71a14f-8b28-40ed-ae69-0541a5c06b35-1708328915638;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Done
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 51d5ee80-3010-4374-9f3f-19cfa89e099a1682666600482
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -89
+  y = 49
+  width = 180
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 820c4cbb-ac04-43fc-bcfb-03fe3549aafa-1708328915638
+  [loading_requirement_container_meta:820c4cbb-ac04-43fc-bcfb-03fe3549aafa-1708328915638] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = be1f5446-d4eb-4b5b-b5fe-28f24e5173d5-1708328915638
+  [executable_action_instance:1bb9f06a-6d8e-43a7-817f-4b1a7dd605e5-1708328915638][action_type:opengui] = mod.id107.flexfov.gui.FlexGui
+  [executable_block:be1f5446-d4eb-4b5b-b5fe-28f24e5173d5-1708328915638][type:generic] = [executables:1bb9f06a-6d8e-43a7-817f-4b1a7dd605e5-1708328915638;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Advanced FOV
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 7e8e7b4b-6abc-4d45-92e9-5e0baac31e451682669674521
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = 51d5ee80-3010-4374-9f3f-19cfa89e099a1682666600482
+  x = -65
+  y = -128
+  width = 308
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 3a585dd7-32db-4cd7-a386-3a9fd5d1226d-1708328915638
+  [loading_requirement_container_meta:3a585dd7-32db-4cd7-a386-3a9fd5d1226d-1708328915638] = [groups:][instances:]
+}
+

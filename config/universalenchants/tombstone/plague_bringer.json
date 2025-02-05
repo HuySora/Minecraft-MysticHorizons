@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "mowziesmobs:spear",
+    "mowziesmobs:naga_fang_dagger",
+    "cataclysm:gauntlet_of_guard",
+    "cataclysm:gauntlet_of_bulwark",
+    "cataclysm:the_incinerator",
+    "cataclysm:meat_shredder",
+    "cataclysm:void_forge",
+    "cataclysm:tidal_claws",
+    "cataclysm:infernal_forge",
+    "enigmaticlegacy:the_infinitum",
+    "enigmaticlegacy:eldritch_pan",
+    "legendary_monsters:ender_hammer",
+    "legendary_monsters:mossy_hammer",
+    "legendary_monsters:fiery_jaw",
+    "legendary_monsters:withered_scythe",
+    "legendary_monsters:wand_of_clouds",
+    "irons_spellbooks:graybeard_staff",
+    "irons_spellbooks:artificer_cane",
+    "irons_spellbooks:ice_staff",
+    "irons_spellbooks:lightning_rod",
+    "irons_spellbooks:blood_staff",
+    "traveloptics:titanlord_scepter",
+    "traveloptics:titanlord_scepter_retro",
+    "traveloptics:titanlord_scepter_tectonic"
+  ],
+  "incompatible": [
+    "tombstone:magic_siphon",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

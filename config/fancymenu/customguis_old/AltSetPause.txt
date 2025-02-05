@@ -1,0 +1,3 @@
+identifier = AltSetPause
+title = Settings
+allowesc = true

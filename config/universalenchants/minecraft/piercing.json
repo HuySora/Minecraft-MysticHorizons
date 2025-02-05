@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:crossbow",
+    "celestisynth:rainfall_serenity",
+    "wom:ender_blaster",
+    "iceandfire:tide_trident",
+    "$minecraft:trident",
+    "$minecraft:bow"
+  ],
+  "incompatible": [
+    "spell_power:critical_damage",
+    "spell_power:spell_power",
+    "enigmaticlegacy:sharpshooter",
+    "minecraft:efficiency",
+    "spell_power:haste",
+    "spell_power:energize",
+    "spell_power:sunfire",
+    "spell_power:critical_chance",
+    "mcdw:multi_shot",
+    "spell_power:soulfrost",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "messages": {
+    "deathMessages": [
+      "Do you really want to respawn again after all that work?",
+      "Have you tried not dying? It works for me all the time.",
+      "Now imagine if this was a roguelike, you wouldn\u0027t stand a chance...",
+      "Contact the developer to balance the game! He won\u0027t ignore you...",
+      "Too Slow, Try Again!",
+      "Someone died! Oh wait, it was you.... Awkward....",
+      "Queue Keyboard Smash",
+      "I think you dropped something important!",
+      "Chronic Skill Issue...",
+      "Pain and Misery",
+      "Have you given up yet? Don\u0027t worry, it\u0027ll happen soon...",
+      "Pain and Misery, my favorite!",
+      "My hope for you is long gone...",
+      "Now where is that delete button?",
+      "That was rough... Good Luck!"
+    ],
+    "enabled": true
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.4
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:dubious_dust",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.18
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:glowing_dust"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.03
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "miningmaster:fire_ruby"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "miningmaster:ice_sapphire"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "miningmaster:spirit_garnet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "miningmaster:haste_peridot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "miningmaster:lucky_citrine"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "miningmaster:dive_aquamarine"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "miningmaster:divine_beryl"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "miningmaster:spider_kunzite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "miningmaster:unbreaking_iolite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "miningmaster:heart_rhodonite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "miningmaster:power_pyrite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "miningmaster:kinetic_opal"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "miningmaster:air_malachite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:runic_tablet"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.25
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "terramity:accursed_soul"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.125
+        }
+      ]
+    }
+  ]
+}

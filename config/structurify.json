@@ -1,0 +1,15 @@
+{
+  "general": {
+    "disabled_all_structures": false,
+    "enable_global_spacing_and_separation_modifier": true,
+    "global_spacing_and_separation_modifier": 1.9
+  },
+  "structures": [],
+  "structure_sets": [
+    {
+      "name": "theorcs:orc_camp",
+      "spacing": 25,
+      "separation": 15
+    }
+  ]
+}

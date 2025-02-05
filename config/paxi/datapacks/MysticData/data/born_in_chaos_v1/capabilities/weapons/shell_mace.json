@@ -1,0 +1,15 @@
+{
+    "attributes": {
+        "common": {
+            "impact": 3.6,
+            "max_strikes": 4
+        }
+    },
+    "type": "epicfight:greatsword",
+    "collider":
+    {
+        "number": 3,
+        "center": [0.0, 0.0, -1.0],
+        "size": [0.38, 0.45, 0.45]
+    }
+}

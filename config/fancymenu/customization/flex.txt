@@ -1,0 +1,133 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = mod.id107.flexfov.gui.FlexGui
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1708328915576
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  custom_menu_title = Advanced FOV Settings
+  [loading_requirement_container_meta:b50ac3bb-e5cc-4454-8e66-86b53d37fc4e-1708328915576] = [groups:][instances:]
+}
+
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = c7e03fbf-63c5-4c52-bc50-4a74af2d5db6-1708328915576
+  [executable_block:c7e03fbf-63c5-4c52-bc50-4a74af2d5db6-1708328915576][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 400334
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = vanillabtn:440154
+  x = -38
+  y = 93
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = dcf59128-dd8d-4d77-8409-13b1f9c01932-1708328915576
+  [loading_requirement_container_meta:dcf59128-dd8d-4d77-8409-13b1f9c01932-1708328915576] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = bbf2feed-b50d-4767-9d1c-cf7e54827b21-1708328915576
+  [executable_block:bbf2feed-b50d-4767-9d1c-cf7e54827b21-1708328915576][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 320202
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = vanillabtn:440154
+  x = -15
+  y = 48
+  width = 150
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 632e9888-d5af-4587-bded-6382a28fd047-1708328915576
+  [loading_requirement_container_meta:632e9888-d5af-4587-bded-6382a28fd047-1708328915576] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 4f667e89-7e7b-4dab-a3fa-8cbfe1da2f6e-1708328915576
+  [executable_block:4f667e89-7e7b-4dab-a3fa-8cbfe1da2f6e-1708328915576][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Default
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 310154
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = b6cc2c0c-a92f-42c3-9c4f-b3c305aa41f8-1708328915576
+  [loading_requirement_container_meta:b6cc2c0c-a92f-42c3-9c4f-b3c305aa41f8-1708328915576] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+

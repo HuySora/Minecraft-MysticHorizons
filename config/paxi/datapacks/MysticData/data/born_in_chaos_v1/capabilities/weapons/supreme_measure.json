@@ -1,0 +1,11 @@
+{
+	"attributes":
+	{
+		"common":
+		{
+			"armor_negation":60.0,
+			"impact":5.0
+		}
+	},
+	"type":"epicfight:axe"
+}

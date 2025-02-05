@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "quark:pickarang",
+    "quark:flamerang",
+    "legendary_monsters:anchor_handle"
+  ],
+  "incompatible": [
+    "minecraft:silk_touch",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

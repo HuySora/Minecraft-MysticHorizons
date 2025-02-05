@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "hiddenMods": ["clumps"],
+  "globalModAliases": {
+    "cloth_config": "cloth-config2",
+    "playeranimator": "player-animator",
+	"embeddium": "sodium"
+  }
+}

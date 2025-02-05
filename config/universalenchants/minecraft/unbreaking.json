@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:breakable"
+  ],
+  "incompatible": [
+    "tonsofenchants:enhanced_unbreaking",
+    "alexscaves:taxing_bellow",
+    "majruszsenchantments:breaking_curse",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

@@ -1,0 +1,62 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = mod.id107.flexfov.gui.advanced.CubicGui
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1708328915551
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  custom_menu_title = Advanced FOV Settings
+  [loading_requirement_container_meta:c84ca4e2-2fed-4cd8-b412-b7ae73c5a82b-1708328915551] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = b0225b66-eac3-43b4-89ae-8529309a20b5-1708328915551
+  [executable_block:b0225b66-eac3-43b4-89ae-8529309a20b5-1708328915551][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Default
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 310154
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 56851d32-cb50-429b-b439-15f1d18f6a3a-1708328915551
+  [loading_requirement_container_meta:56851d32-cb50-429b-b439-15f1d18f6a3a-1708328915551] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+

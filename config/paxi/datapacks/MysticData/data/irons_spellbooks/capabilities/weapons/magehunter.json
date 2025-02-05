@@ -1,0 +1,11 @@
+{
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 10,
+            "impact": 1.4,
+            "max_strikes": 1,
+            "speed_bonus": 0
+        }
+    },
+    "type": "epicfight:sword"
+}

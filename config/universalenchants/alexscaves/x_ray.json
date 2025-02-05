@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:raygun"
+  ],
+  "incompatible": [
+    "alexscaves:gamma_ray",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

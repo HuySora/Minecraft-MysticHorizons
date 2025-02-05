@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "terramity:textures/screens/reinforced_blackstone_bricks.png",
+    "icon": {
+      "item": "terramity:terramity_guidebook_icon"
+    },
+    "title": {
+      "translate": "advancements.terramity_parent_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.terramity_parent_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "terramity_parent_advancement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "minecraft:gameplay/terramity_guidebook_loot"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:bow"
+  ],
+  "incompatible": [
+    "mcdw:enigma_resonator",
+    "spell_power:critical_damage",
+    "spell_power:spell_power",
+    "mcdw:shared_pain",
+    "mcdw:thundering",
+    "spell_power:soulfrost",
+    "mcdw:exploding",
+    "mcdw:weakening",
+    "mcdw:chains",
+    "mcdw:critical_hit",
+    "mcdw:shockwave",
+    "mcdw:committed",
+    "mcdw:pain_cycle",
+    "majruszsenchantments:incompatibility_curse",
+    "mcdw:echo",
+    "mcdw:smiting",
+    "spell_power:energize",
+    "mcdw:ambush",
+    "mcdw:dynamo",
+    "spell_power:sunfire",
+    "mcdw:gravity",
+    "spell_power:haste",
+    "mcdw:void_strike",
+    "spell_power:critical_chance",
+    "mcdw:poison_cloud",
+    "mcdw:swirling"
+  ]
+}

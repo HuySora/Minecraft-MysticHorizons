@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_chest",
+    "$minecraft:universal_enchants_horse_armor",
+    "$minecraft:universal_enchants_shield"
+  ],
+  "incompatible": [
+    "tonsofenchants:enhanced_thorns",
+    "tonsofenchants:fiery_thorns",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

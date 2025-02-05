@@ -1,0 +1,11 @@
+{
+"type": "epicfight:axe",
+    "attributes": {
+        "two_hand": {
+            "armor_negation": 0,
+            "impact": 3,
+            "max_strikes": 5,
+			"speed_bonus": 0.4
+        }
+    }
+}

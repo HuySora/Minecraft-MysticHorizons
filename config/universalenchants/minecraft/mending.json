@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:breakable",
+    "enigmaticlegacy:the_infinitum"
+  ],
+  "incompatible": [
+    "spell_engine:spell_infinity",
+    "alexscaves:taxing_bellow",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

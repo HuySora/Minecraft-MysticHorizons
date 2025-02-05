@@ -1,0 +1,25 @@
+
+#This file contains all loot modifiers' generate trigger chances.
+#If you want to change the loot table instead, head to loot_modifiers folder, inside mod's datapack!
+[loot_generation]
+
+	[loot_generation.loot_modifier_chance]
+		#Main proc chance for Augment drops from entities || Default 0.5 || Changing this will affect all loot tables that uses this loot_modifier
+		#Range: 0.0 ~ 1.0
+		augment_entity = 0.5
+		#Main proc chance for Item drops from entities || Default 0.6 || Changing this will affect all loot tables that uses this loot_modifier
+		#Range: 0.0 ~ 1.0
+		item_entity = 0.6
+		#Main proc chance for Specialty drops from entities || Default 0.6 || Changing this will affect all loot tables that uses this loot_modifier
+		#Range: 0.0 ~ 1.0
+		specialty_entity = 0.6
+		#This modifier is usually used for elite mobs or chests || Default 0.1 || Changing this will affect all loot tables that uses this loot_modifier
+		#Range: 0.0 ~ 1.0
+		low_chance = 0.1
+		#This modifier is usually used for elite mobs or chests || Default 0.15 || Changing this will affect all loot tables that uses this loot_modifier
+		#Range: 0.0 ~ 1.0
+		medium_chance = 0.15
+		#This modifier is usually used for elite mobs or chests || Default 0.2 || Changing this will affect all loot tables that uses this loot_modifier
+		#Range: 0.0 ~ 1.0
+		high_chance = 0.2
+

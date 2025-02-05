@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:crossbow"
+  ],
+  "incompatible": [
+    "spell_power:critical_damage",
+    "spell_power:spell_power",
+    "mcdw:burst_bowstring",
+    "spell_power:haste",
+    "spell_power:energize",
+    "spell_power:sunfire",
+    "spell_power:critical_chance",
+    "minecraft:infinity",
+    "spell_power:soulfrost",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

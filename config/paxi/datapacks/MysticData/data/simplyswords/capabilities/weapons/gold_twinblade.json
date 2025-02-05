@@ -1,0 +1,14 @@
+{
+    "attributes": {
+        "two_hand": {
+            "impact": 4.5,
+            "max_strikes": 4
+        }
+    },
+    "type": "wom:staff",
+    "collider": {
+        "number": 3,
+        "center": [0.0, 0.0, 0.0],
+        "size": [0.45, 0.45, 1.05]
+    }
+}

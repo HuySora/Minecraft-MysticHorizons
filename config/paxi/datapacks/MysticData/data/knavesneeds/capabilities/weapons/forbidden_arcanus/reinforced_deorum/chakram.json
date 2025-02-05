@@ -1,0 +1,16 @@
+{
+    "type": "epic_fight_battle_styles:chakram",
+    "attributes": {
+        "common": {
+            "armor_negation": 0,
+            "impact": 1.25,
+            "max_strikes": 1
+        }
+    },
+    "collider":
+    {
+        "number": 3,
+        "center": [0.0, 0.0, -0.3],
+        "size": [1.15, 0.6, 1.0]
+    }
+}

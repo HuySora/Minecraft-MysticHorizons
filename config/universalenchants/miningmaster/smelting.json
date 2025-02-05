@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "legendary_monsters:anchor_handle"
+  ],
+  "incompatible": [
+    "miningmaster:stonebreaker",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

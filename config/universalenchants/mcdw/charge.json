@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:bow"
+  ],
+  "incompatible": [
+    "spell_power:critical_damage",
+    "spell_power:spell_power",
+    "spell_power:haste",
+    "mcdw:tempo_theft",
+    "spell_power:energize",
+    "spell_power:sunfire",
+    "spell_power:critical_chance",
+    "spell_power:soulfrost",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

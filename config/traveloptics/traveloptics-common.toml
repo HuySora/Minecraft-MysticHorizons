@@ -1,0 +1,32 @@
+
+#Common Configs || This config file offer controls to many different things on the mod.
+#Changing something you don't know about, might break your game.
+[common]
+
+	[common.general]
+		#Show welcome message || Default: true
+		welcome_message = false
+		#Should the creative tab format be changed to legacy item showcase format || Default: false
+		legacyCreativeTab = false
+
+	[common.augment]
+		#Chance to get a additional attribute in Wild Augment types || Default 0.2 = 20%
+		#Range: 0.01 ~ 1.0
+		wild_probability = 0.2
+		#Experience cost when assigning attributes in a Wild Augment || Default 250 xp points
+		#Range: > 50
+		wild_experience_cost = 250
+		# % of negative stat gets reduced after blessing a Mythic Augment || Default 0.8 = 20%
+		#Range: 0.1 ~ 1.0
+		blessing_reduction = 0.8
+
+	[common.sanctified_spellbook_slot_upgrade]
+		#Extra slots given by Sanctified Spell Slot Improvement Item || The upgrade itself is limited to 15 slots by Inscription table || Default 15
+		#Range: > 10
+		spellbook_slot_upgrade_items = 15
+
+	[common.spectral_spellbook_slot_upgrade]
+		#Extra slots given by Spectral Spell Slot Improvement Item || The upgrade itself is limited to 15 slots by Inscription table || Default 15
+		#Range: > 10
+		spellbook_slot_upgrade_items = 15
+

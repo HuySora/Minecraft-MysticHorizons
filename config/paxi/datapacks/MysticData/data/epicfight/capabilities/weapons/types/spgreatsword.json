@@ -1,0 +1,68 @@
+{
+	"category": "greatsword",
+	"hit_particle": "epicfight:entity.hit.blade",
+	"hit_sound": "epicfight:entity.hit.blade",
+	"swing_sound": "epicfight:entity.weapon.whoosh_hard",
+	"styles":
+	{
+		"cases":
+		[
+			{
+				"condition": "epicfight:offhand_category",
+				"predicate": {
+					"category": "shield"
+				},
+				"style": "two_hand"
+			}
+		],
+		"default": "two_hand"
+	},
+	"offhand_item_compatible_predicate":
+	{
+		"condition": "epicfight:offhand_category",
+		"predicate": {
+			"category": "greatsword"
+		}
+	},
+	"collider":
+    {
+        "number": 4,
+        "center": [0.0, 0.0, -1.0],
+        "size": [0.7, 1.0, 1.4]
+    },
+    "combos":
+    {
+    	"two_hand":
+    	[
+			"epicfight:biped/combat/greatsword_auto1",
+			"epicfight:biped/combat/greatsword_auto2",
+			"wom:biped/combat/torment_auto_3",
+			"wom:biped/combat/torment_auto_4",
+			"epicfight:biped/combat/greatsword_dash",
+			"epicfight:biped/combat/greatsword_airslash"
+    	],
+    	"mount":
+    	[
+    		"epicfight:biped/combat/sword_mount_attack"
+    	]
+    },
+    "innate_skills":
+    {
+    	"two_hand": "epicfight:steel_whirlwind"
+    },
+    "livingmotion_modifier": {
+    	"two_hand":
+    	{
+			"aim": "epicfight:biped/skill/steel_whirlwind_charging",
+    		"idle": "epicfight:biped/living/hold_greatsword",
+    		"kneel": "epicfight:biped/living/hold_greatsword",
+    		"walk": "epicfight:biped/living/hold_greatsword",
+    		"chase": "epicfight:biped/living/hold_greatsword",
+    		"run": "epicfight:biped/living/run_greatsword",
+    		"sneak": "epicfight:biped/living/hold_greatsword",
+    		"swim": "epicfight:biped/living/hold_greatsword",
+    		"float": "epicfight:biped/living/hold_greatsword",
+    		"fall": "epicfight:biped/living/hold_greatsword"
+    	}
+    }
+}
