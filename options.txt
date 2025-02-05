@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","builtin/fresh_animations_compat","file/DeathFX-Sound+FX.zip","file/EclecticTrove-1.20.1-1.3.0.zip","file/FreshAnimations_v1.9.2.zip","file/Unity-1.20.1-3.0.0.zip","file/MandalasGUI+Whitemode_1.20.5r.zip","file/Enhanced-Audio.zip","Moonlight Mods Dynamic Assets","fabric","file/Mystic-Textures-v1.6.zip"]
-incompatibleResourcePacks:["builtin/towntalk"]
+resourcePacks:["vanilla","mod_resources","builtin/fresh_animations_compat","file/DeathFX-Sound+FX.zip","file/EclecticTrove-1.20.1-1.3.0.zip","file/FreshAnimations_v1.9.2.zip","file/Unity-1.20.1-3.0.0.zip","file/MandalasGUI+Whitemode_1.20.5r.zip","file/Enhanced-Audio.zip","Moonlight Mods Dynamic Assets","fabric","file/Mystic-Textures-v1.6.zip","file/Slightly-Improved-Font-1.1.3.zip"]
+incompatibleResourcePacks:[]
 lastServer:66.248.199.131:25565
 lang:en_us
 soundDevice:""
@@ -402,6 +402,7 @@ key_key.inventoryhud.openconfig:key.keyboard.unknown
 key_key.inventoryhud.togglepot:key.keyboard.unknown
 key_key.inventoryhud.togglearm:key.keyboard.unknown
 key_key.inventoryhud.toggleall:key.keyboard.unknown
+key_key.nbtedit.shortcut:key.keyboard.unknown
 key_key.presencefootsteps.settings:key.keyboard.unknown
 key_gui.xaero_pac_key_open_menu:key.keyboard.apostrophe
 key_key.entityculling.toggle:key.keyboard.unknown
