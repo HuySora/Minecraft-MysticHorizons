@@ -32,6 +32,10 @@ $folders = @{
         "source" = "..\defaultconfigs"
         "ignoreNames" = @()
     }
+    "kubejs" = @{
+        "source" = "..\kubejs"
+        "ignoreNames" = @()
+    }
     "libraries" = @{
         "source" = "..\..\libraries"
         "target" = "libraries"
