@@ -346,6 +346,11 @@ key_key.toolbelt.open:key.keyboard.j
 key_key.toolbelt.cycle.left:key.keyboard.unknown
 key_key.toolbelt.cycle.right:key.keyboard.unknown
 key_key.toolbelt.slot:key.keyboard.unknown
+key_key.jade.config:key.keyboard.keypad.0
+key_key.jade.show_overlay:key.keyboard.keypad.1
+key_key.jade.toggle_liquid:key.keyboard.keypad.2
+key_key.jade.narrate:key.keyboard.keypad.5
+key_key.jade.show_details:key.keyboard.left.shift
 key_key.spartanshields.alt_shield_bash:key.keyboard.unknown
 key_keybind.reliquary.fortune_coin:key.keyboard.unknown
 key_quark.keybind.autorun:key.keyboard.unknown
